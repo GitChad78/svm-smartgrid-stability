@@ -1,0 +1,11 @@
+Accuracy: 0.9730
+              precision    recall  f1-score   support
+
+      Stable       0.96      0.96      0.96       724
+    Unstable       0.98      0.98      0.98      1276
+
+    accuracy                           0.97      2000
+   macro avg       0.97      0.97      0.97      2000
+weighted avg       0.97      0.97      0.97      2000
+
+5-Fold CV: 0.9604 ± 0.0033
