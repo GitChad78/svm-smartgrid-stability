@@ -1,1 +1,5 @@
 output_figures/
+review_figures/*.png
+*.csv
+*.zip
+*.pkl
