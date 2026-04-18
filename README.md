@@ -21,4 +21,4 @@ pip install -r requirements.txt
 python svm_pipeline.py
 
 ## Author
-Pablo Soham | 2nd Year CS | 2026
+Soham Ambudkar | 2nd Year CS | 2026
