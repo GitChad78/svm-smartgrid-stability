@@ -1,8 +1,8 @@
 """
 Figure 4: Accuracy Comparison Across Studies (2021-2026)
 Author: Pablo Soham | Don Bosco Symposium on AI in Education 2026
-Output: review_figures/fig3_accuracy_comparison.png (300 DPI)
-Run:    python review_figures/fig3_accuracy_comparison.py
+Output: review_figures/fig4_accuracy_comparison.png (300 DPI)
+Run:    python review_figures/fig4_accuracy_comparison.py
 """
 import matplotlib
 matplotlib.use('Agg')
@@ -63,7 +63,7 @@ ax.set_xticklabels(studies,fontsize=9.5)
 ax.set_ylim(88,100.5)
 ax.set_ylabel('Classification Accuracy (%)',fontsize=13,color=BD)
 ax.set_xlabel('Study (Chronological Order)',fontsize=13,color=BD)
-ax.set_title('Figure 3: Classification Accuracy Across Studies - UCI Smart Grid Stability Benchmark\n'
+ax.set_title('Figure 4: Classification Accuracy Across Studies - UCI Smart Grid Stability Benchmark\n'
     'White diamonds show SVM accuracy where SVM is not the best method in that study',
     fontsize=12,color=BD,pad=14)
 ax.legend(loc='lower right',fontsize=10,framealpha=0.92)
@@ -72,6 +72,6 @@ ax.text(8.6,97.6,'Very Good (97-99%)',fontsize=8,color=BM,style='italic')
 ax.text(8.6,95.2,'Competitive (95-97%)',fontsize=8,color=OR,style='italic')
 
 plt.tight_layout()
-plt.savefig('review_figures/fig3_accuracy_comparison.png',dpi=300,bbox_inches='tight')
+plt.savefig('review_figures/fig4_accuracy_comparison.png',dpi=300,bbox_inches='tight')
 plt.close()
 print("Saved: review_figures/fig3_accuracy_comparison.png")
