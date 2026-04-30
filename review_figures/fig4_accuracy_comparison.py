@@ -1,5 +1,5 @@
 """
-Figure 3: Accuracy Comparison Across Studies (2021-2026)
+Figure 4: Accuracy Comparison Across Studies (2021-2026)
 Author: Pablo Soham | Don Bosco Symposium on AI in Education 2026
 Output: review_figures/fig3_accuracy_comparison.png (300 DPI)
 Run:    python review_figures/fig3_accuracy_comparison.py
