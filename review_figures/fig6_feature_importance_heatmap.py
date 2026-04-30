@@ -1,5 +1,5 @@
 """
-Figure 5: Feature Importance Heatmap
+Figure 6: Feature Importance Heatmap
 Author: Soham | Don Bosco Symposium on AI in Education 2026
 Output: review_figures/fig5_feature_importance_heatmap.png (300 DPI)
 Run:    python review_figures/fig5_feature_importance_heatmap.py
