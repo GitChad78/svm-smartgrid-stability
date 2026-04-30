@@ -1,8 +1,8 @@
 """
 Figure 2: SVM Kernel Decision Boundary Visualisation
 Author: Soham | Don Bosco Symposium on AI in Education 2026
-Output: review_figures/fig6_svm_kernel_boundary.png (300 DPI)
-Run:    python review_figures/fig6_svm_kernel_boundary.py
+Output: review_figures/fig2_svm_kernel_boundary.png (300 DPI)
+Run:    python review_figures/fig2_svm_kernel_boundary.py
 """
 import matplotlib
 matplotlib.use('Agg')
@@ -76,10 +76,10 @@ for ax,kernel,name,acc in zip(axes,kernels,names,accs):
     ax.legend(loc='upper left',fontsize=8,framealpha=0.9)
     ax.tick_params(labelsize=9)
 
-fig.suptitle('Figure 6: SVM Kernel Decision Boundaries - 2D Projection (tau1 vs g1)\n'
+fig.suptitle('Figure 2: SVM Kernel Decision Boundaries - 2D Projection (tau1 vs g1)\n'
     'RBF kernel captures the nonlinear stability boundary best',
     fontsize=12,color=BD,y=1.01,fontweight='bold')
 plt.tight_layout()
-plt.savefig('review_figures/fig6_svm_kernel_boundary.png',dpi=300,bbox_inches='tight')
+plt.savefig('review_figures/fig2_svm_kernel_boundary.png',dpi=300,bbox_inches='tight')
 plt.close()
-print("Saved: review_figures/fig6_svm_kernel_boundary.png")
+print("Saved: review_figures/fig2_svm_kernel_boundary.png")
