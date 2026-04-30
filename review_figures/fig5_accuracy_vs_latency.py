@@ -6,7 +6,7 @@
 
 
 """
-Figure 4: Accuracy vs Inference Latency Trade-off (Bubble Chart)
+Figure 5: Accuracy vs Inference Latency Trade-off (Bubble Chart)
 Author: Soham | Don Bosco Symposium on AI in Education 2026
 Output: review_figures/fig4_accuracy_vs_latency.png (300 DPI)
 Run:    python review_figures/fig4_accuracy_vs_latency.py
