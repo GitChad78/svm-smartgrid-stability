@@ -1,5 +1,5 @@
 """
-Figure 6: SVM Kernel Decision Boundary Visualisation
+Figure 2: SVM Kernel Decision Boundary Visualisation
 Author: Soham | Don Bosco Symposium on AI in Education 2026
 Output: review_figures/fig6_svm_kernel_boundary.png (300 DPI)
 Run:    python review_figures/fig6_svm_kernel_boundary.py
