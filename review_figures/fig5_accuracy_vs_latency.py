@@ -8,8 +8,8 @@
 """
 Figure 5: Accuracy vs Inference Latency Trade-off (Bubble Chart)
 Author: Soham | Don Bosco Symposium on AI in Education 2026
-Output: review_figures/fig4_accuracy_vs_latency.png (300 DPI)
-Run:    python review_figures/fig4_accuracy_vs_latency.py
+Output: review_figures/fig5_accuracy_vs_latency.png (300 DPI)
+Run:    python review_figures/fig5_accuracy_vs_latency.py
 """
 import matplotlib
 matplotlib.use('Agg')
@@ -73,6 +73,6 @@ ax.annotate('SVM offers the best\naccuracy-latency-size\ncombination',
     bbox=dict(boxstyle='round,pad=0.4',facecolor='#E8F4FD',edgecolor=BD))
 
 plt.tight_layout()
-plt.savefig('review_figures/fig4_accuracy_vs_latency.png',dpi=300,bbox_inches='tight')
+plt.savefig('review_figures/fig5_accuracy_vs_latency.png',dpi=300,bbox_inches='tight')
 plt.close()
-print("Saved: review_figures/fig4_accuracy_vs_latency.png")
+print("Saved: review_figures/fig5_accuracy_vs_latency.png")
