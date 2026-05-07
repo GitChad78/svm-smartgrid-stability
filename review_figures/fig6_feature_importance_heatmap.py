@@ -1,8 +1,8 @@
 """
 Figure 6: Feature Importance Heatmap
 Author: Soham | Don Bosco Symposium on AI in Education 2026
-Output: review_figures/fig5_feature_importance_heatmap.png (300 DPI)
-Run:    python review_figures/fig5_feature_importance_heatmap.py
+Output: review_figures/fig6_feature_importance_heatmap.png (300 DPI)
+Run:    python review_figures/fig6_feature_importance_heatmap.py
 """
 import matplotlib
 matplotlib.use('Agg')
@@ -82,9 +82,9 @@ legend_els=[
 ]
 ax2.legend(handles=legend_els,loc='lower right',fontsize=8.5)
 
-fig.suptitle('Figure 5: Feature Importance Analysis - UCI Smart Grid Stability Dataset\n'
+fig.suptitle('Figure 6: Feature Importance Analysis - UCI Smart Grid Stability Dataset\n'
     'Reaction-time parameters dominate; consumption parameters negligible across all classifiers',
     fontsize=12,color=BD,y=1.01,fontweight='bold')
-plt.savefig('review_figures/fig5_feature_importance_heatmap.png',dpi=300,bbox_inches='tight')
+plt.savefig('review_figures/fig6_feature_importance_heatmap.png',dpi=300,bbox_inches='tight')
 plt.close()
-print("Saved: review_figures/fig5_feature_importance_heatmap.png")
+print("Saved: review_figures/fig6_feature_importance_heatmap.png")
