@@ -19,7 +19,7 @@ plt.rcParams.update({'font.family':'DejaVu Sans','figure.facecolor':'white',
     'axes.facecolor':'#F8F9FA','axes.spines.top':False,'axes.spines.right':False,
     'axes.grid':True,'grid.color':'white','grid.linewidth':1.4})
 
-studies=['Bashir et al.\n2021','Hinz & Drossel\n2023','Zhang et al.\n2023',
+studies=['Bashir et al.\n2021','Franović et al.\n2023','Zhang et al.\n2023',
     'Lahon et al.\n2024','Sreelakshmi\net al. 2024','Hassan et al.\n2024',
     'Danach et al.\n2025','Ahmed et al.\n2025','Soham\n2026']
 best_acc=[95.8,96.5,97.1,99.5,98.92,97.5,96.0,98.94,97.30]
@@ -74,4 +74,5 @@ ax.text(8.6,95.2,'Competitive (95-97%)',fontsize=8,color=OR,style='italic')
 plt.tight_layout()
 plt.savefig('review_figures/fig4_accuracy_comparison.png',dpi=300,bbox_inches='tight')
 plt.close()
+print("Saved: review_figures/fig3_accuracy_comparison.png")
 print("Saved: review_figures/fig4_accuracy_comparison.png")
