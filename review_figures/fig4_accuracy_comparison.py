@@ -19,9 +19,9 @@ plt.rcParams.update({'font.family':'DejaVu Sans','figure.facecolor':'white',
     'axes.facecolor':'#F8F9FA','axes.spines.top':False,'axes.spines.right':False,
     'axes.grid':True,'grid.color':'white','grid.linewidth':1.4})
 
-studies=['Bashir et al.\n2021','Franović et al.\n2023','Zhang et al.\n2023',
-    'Lahon et al.\n2024','Sreelakshmi\net al. 2024','Hassan et al.\n2024',
-    'Danach et al.\n2025','Ahmed et al.\n2025','Soham\n2026']
+studies=['Bashir et al.\n2021','Franović et al.\n2023','Ali A et al\n2023',
+    'Lahon et al.\n2024','Lakshmanarao et al. 2024','Hassan et al.\n2024',
+    'Danach et al.\n2025','Chhabra et al. et al.\n2025','Soham\n2026']
 best_acc=[95.8,96.5,97.1,99.5,98.92,97.5,96.0,98.94,97.30]
 svm_acc=[95.8,96.5,None,98.9,98.92,None,96.0,96.52,97.30]
 methods=['SVM/NN','MLP/XGB/SVM','ML+SMOTE','DNN','ANN+SVM',
